@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.home-content .content {
+    min-height: 710px;
+    background-image: url(https://viewfinder.expedia.com/wp-content/uploads/2016/05/Beach-Activities_HEADER_Sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    height: 90px;
+    background-color: #fffdf3;
+}
+.home-content div .title {
+    padding-top: 150px;
+}
+
+.login {
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form input:focus {
+    background: #dbdbdb;
+}
+
+.form button {
+    outline: 0;
+    background: wheat;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:active {
+    background: #395591;
+}
+
+.form span {
+    font-size: 75px;
+    color: #4b6cb7;
+}
+
+.lock-icon {
+    font-size: 50px;
+    color: #4b6cb7;
+    margin-bottom: 15px;
+}
+
+.form-date {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.reservation-date-button button {
+    padding: .6rem;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.list-group-item {
+    background-color: #21252980 !important;
+
+}
+
+.list-group li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error {
+    color: red;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #21252980 !important;
+    border:none;
+    color: white !important;
+
+}
+.nav-link {
+    color: white !important;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style: none;
+    flex: 1;
+    font-size: 25px;
+    padding: 10px;
+
+    cursor: pointer;
+}
+.camera_caption {
+    color: #fff;
+    display: table;
+    max-height: 100%;
+    vertical-align: middle;
+    white-space: normal;
+    padding: 0% 4% 0;
+    text-align: left;
+    margin: 0 auto;
+    margin-block-start: 150px;
+}
+
+.heading-style-1 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: -6%;
+    white-space: nowrap;
+    font-size: xxx-large;
+}
+.camera_caption:hover {
+    background-color: #899097;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+.indent {
+    margin-left: 6%;
+}
